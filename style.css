@@ -1,0 +1,168 @@
+body{
+    text-align: center;
+    background-color: darkcyan;
+}
+p{
+    align-items: left;
+}
+.img{
+    color: lawngreen;
+    resize: both;
+    shape-image-threshold: inherit;
+    -moz-box-align: center;
+}
+.footer{
+    margin-top: 10%;
+    width: 100%;
+    color: darkgray;
+    background-color: rgba(54, 54, 224, 0.226);
+    border-radius: 50px;
+    border: 1px solid rgb(27, 27, 234);
+}
+
+.footer:hover{
+    color: wheat;
+    background-color: rgba(255, 217, 0, 0.055);
+}
+
+.footer a{
+    text-decoration: none;
+    margin-right: 3%;
+
+}
+
+.footer img{
+
+    transition: 1s;
+    border-radius: 50%;
+    margin-top: 10%;
+    width: 40px;
+    
+}
+.footer img:hover{
+    transition: 3s;
+    transform: rotate(720deg);
+    background-color: white;
+    
+}
+.footernav{
+
+    display: flex;
+    width: 150%;
+    font-size: 140%;
+    padding-left: 2%;
+    font-family: cursive;
+}
+.footext{
+    margin-top: 1%;
+}
+.contacts img{
+    transition: 1s;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 2%;
+
+}
+nav{
+    text-align: center;
+    margin-bottom: 10%;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(4, 28, 56, 0.745);
+
+}
+
+#services{
+    padding-bottom: 10%;
+}
+
+.tab{
+    color: blanchedalmond;
+    opacity: 70%;
+    font-weight: bolder;
+    font-size: medium;
+}
+.img{
+    border-radius: 60%;
+}
+form{
+    margin: 1% 30% ;
+    border: 1px solid black;
+    width: 40%;
+    text-align: center;
+    background-size: cover;
+    background-color: darkgreen;
+    background-blend-mode:normal;
+    transition: 3s;
+}
+
+form:hover{
+    margin: 10% 28%;
+    transition: 1s;
+    transform: skewY(15deg);
+    width: 45%;
+    background-color:darkgreen;
+    background-blend-mode: multiply;
+}
+nav a{
+    transition: 0.5s;
+    text-align: center;
+    font-size: 120%;
+    text-decoration: none;
+    color: gold;
+    border-radius: 5px;
+    padding: 0 2% 0 2%;
+    cursor: pointer;
+}
+nav a:hover{
+    background-color: rgba(255, 183, 0, 0.322);
+    color: gold;
+    font-size: 125%;
+
+}
+.homepage{
+    width: 100%;
+    padding-top: 5%;
+    text-align: left;
+}
+.homepage img{
+    transition: 1.5s;
+    border-radius: 20px;
+    padding: 1%;
+    width: 30%;
+
+}
+.homepage img:hover{
+    transform: rotateY(180deg);
+    background-color: rgba(255, 217, 0, 0.158);
+
+}
+.services{
+    
+    border: 2px solid black;
+    transition: ease-in-out 1s;
+    border-radius: 20px;
+    margin: 1% 9% 0 9%;
+    background-color: rgba(0, 0, 0, 0.399);
+}
+
+.services:hover{
+    border: 1px solid rgb(139, 136, 136);
+    background-color: rgba(0, 0, 0, 0.76);
+
+}
+.submit{
+    border: 1px solid gold;
+    color: gold;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 2%;
+    transition: 1s;
+    cursor: pointer;
+    margin: 1%;
+}
+.submit:hover{
+    font-size: 1.1em;
+    color: rgba(255, 217, 0, 0.349);
+}
